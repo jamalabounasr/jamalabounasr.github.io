@@ -188,3 +188,7 @@
     color: var(--global-hover-color);
   }
 }
+/* Hide nav links + search, keep only the light/dark toggle */
+#navbarNav .navbar-nav{display:none !important;}
+#search-toggle{display:none !important;}
+.navbar-toggler{display:none !important;}
