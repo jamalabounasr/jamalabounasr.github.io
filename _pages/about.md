@@ -54,18 +54,13 @@ I’m Jamal Abounasr, a researcher with the <a href="https://rflex.upc.edu/en" t
 
 My work focuses on wearable and body-integrated RF sensing, including printed and textile antenna sensors for respiratory monitoring and other biomedical applications. I design RF structures and validate them experimentally, bridging electromagnetics, flexible fabrication, and signal interpretation to turn RF measurements into meaningful physiological information.
 
-My work focuses on wearable and body-integrated RF sensing, including printed and textile antenna sensors for respiratory monitoring and other biomedical applications. I design RF structures and validate them experimentally, bridging electromagnetics, flexible fabrication, and signal interpretation to turn RF measurements into meaningful physiological information.
+## Research Interests
+- Wearable and body-integrated RF sensing for healthcare
+- Textile and printed antenna-based sensors for respiratory monitoring
+- Flexible fabrication (embroidered e-textiles, printed conductors) and reliability (washing/stretching)
+- Near-field coupling / resonator-based sensing and RF readout interpretation
+- Signal processing and calibration against reference systems (e.g., BIOPAC)
 
-
-My work focuses on wearable and body-integrated RF sensing, including printed and textile antenna sensors for respiratory monitoring and other biomedical applications. I design RF structures and validate them experimentally, bridging electromagnetics, flexible fabrication, and signal interpretation to turn RF measurements into meaningful physiological information.
-
-
-My work focuses on wearable and body-integrated RF sensing, including printed and textile antenna sensors for respiratory monitoring and other biomedical applications. I design RF structures and validate them experimentally, bridging electromagnetics, flexible fabrication, and signal interpretation to turn RF measurements into meaningful physiological information.
-
-My work focuses on wearable and body-integrated RF sensing, including printed and textile antenna sensors for respiratory monitoring and other biomedical applications. I design RF structures and validate them experimentally, bridging electromagnetics, flexible fabrication, and signal interpretation to turn RF measurements into meaningful physiological information.
-
-My work focuses on wearable and body-integrated RF sensing, including printed and textile antenna sensors for respiratory monitoring and other biomedical applications. I design RF structures and validate them experimentally, bridging electromagnetics, flexible fabrication, and signal interpretation to turn RF measurements into meaningful physiological information.
-
-My work focuses on wearable and body-integrated RF sensing, including printed and textile antenna sensors for respiratory monitoring and other biomedical applications. I design RF structures and validate them experimentally, bridging electromagnetics, flexible fabrication, and signal interpretation to turn RF measurements into meaningful physiological information.
-
+## Publications
+See the full list on the Publications page: [Publications](/publications/).
 
