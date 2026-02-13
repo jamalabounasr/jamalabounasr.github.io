@@ -9,29 +9,30 @@ profile:
   image: jamal.jpg
   image_circular: false
   more_info: >
-    <div style="display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin-top:10px;">
-      <span style="display:inline-flex;align-items:center;gap:8px;white-space:nowrap;">
-        <i class="fas fa-map-marker-alt"></i><span>Barcelona, Spain</span>
+    <div style="display:flex;flex-wrap:nowrap;gap:18px;align-items:center;white-space:nowrap;overflow-x:auto;padding:8px 0;">
+      <span style="display:inline-flex;align-items:center;gap:8px;">
+        <i class="fa-solid fa-location-dot"></i><span>Barcelona, Spain</span>
       </span>
-      <span style="display:inline-flex;align-items:center;gap:8px;white-space:nowrap;">
-        <i class="fas fa-university"></i><span>UPC</span>
+      <span style="display:inline-flex;align-items:center;gap:8px;">
+        <i class="fa-solid fa-building-columns"></i><span>UPC</span>
       </span>
-      <a href="mailto:jamal.abounasr@upc.edu" style="display:inline-flex;align-items:center;gap:8px;white-space:nowrap;">
-        <i class="fas fa-envelope"></i><span>Email</span>
+      <a href="mailto:jamal.abounasr@upc.edu" style="display:inline-flex;align-items:center;gap:8px;">
+        <i class="fa-solid fa-envelope"></i><span>Email</span>
       </a>
-      <a href="https://scholar.google.com/citations?user=BnjJTP8AAAAJ" target="_blank" style="display:inline-flex;align-items:center;gap:8px;white-space:nowrap;">
-        <i class="ai ai-google-scholar"></i><span>Google Scholar</span>
+      <a href="https://scholar.google.com/citations?user=BnjJTP8AAAAJ" target="_blank" style="display:inline-flex;align-items:center;gap:8px;">
+        <i class="fa-solid fa-graduation-cap"></i><span>Google Scholar</span>
       </a>
-      <a href="https://www.linkedin.com/in/jamal-abounasr-23b4ba252" target="_blank" style="display:inline-flex;align-items:center;gap:8px;white-space:nowrap;">
-        <i class="fab fa-linkedin"></i><span>LinkedIn</span>
+      <a href="https://www.linkedin.com/in/jamal-abounasr-23b4ba252" target="_blank" style="display:inline-flex;align-items:center;gap:8px;">
+        <i class="fa-brands fa-linkedin"></i><span>LinkedIn</span>
       </a>
-      <a href="https://orcid.org/0009-0007-8510-6873" target="_blank" style="display:inline-flex;align-items:center;gap:8px;white-space:nowrap;">
-        <i class="fab fa-orcid"></i><span>ORCID</span>
+      <a href="https://orcid.org/0009-0007-8510-6873" target="_blank" style="display:inline-flex;align-items:center;gap:8px;">
+        <i class="fa-brands fa-orcid"></i><span>ORCID</span>
       </a>
-      <a href="/assets/pdf/CV%202026.pdf" target="_blank" style="display:inline-flex;align-items:center;gap:8px;white-space:nowrap;">
-        <i class="fas fa-file-pdf"></i><span>CV</span>
+      <a href="/assets/pdf/CV%202026.pdf" target="_blank" style="display:inline-flex;align-items:center;gap:8px;">
+        <i class="fa-solid fa-file-pdf"></i><span>CV</span>
       </a>
     </div>
+
 
 
 
