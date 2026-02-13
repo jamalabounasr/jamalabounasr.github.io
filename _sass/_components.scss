@@ -54,32 +54,33 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Profile
-
 .profile{
   width:100%;
   .more-info{
     margin-top:12px;
     margin-bottom:5px;
-    font-family: inherit; /* remove monospace look */
-    .sidebar-links{
-      display:flex;
-      flex-direction:column;
-      gap:10px;
-    }
-    .link-item{
-      display:flex;
-      align-items:center;
-      gap:10px;
-      text-decoration:none;
-      color:var(--global-text-color);
-    }
+    font-family:inherit;
+    .sidebar-links{display:flex;flex-direction:column;gap:10px;}
+    .link-item{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--global-text-color);}
     .link-item:hover{color:var(--global-hover-color);}
     .link-item.no-hover{pointer-events:none;}
-    .link-item i{
-      width:1.25rem;
-      text-align:center;
-      flex:0 0 1.25rem;
-    }
+    .link-item i{width:1.25rem;text-align:center;flex:0 0 1.25rem;}
+  }
+}
+/* Make the profile column (image+info) small and floating on desktop/tablet */
+@media (min-width:576px){
+  .profile{width:30%;}
+  .profile.float-right{float:right;margin-left:1rem;}
+  .profile.float-left{float:left;margin-right:1rem;}
+}
+/* Sticky (floating while scrolling) only on large screens, without inner scrollbars */
+@media (min-width:992px){
+  .profile.float-right,.profile.float-left{
+    position:sticky;
+    top:110px;
+    align-self:flex-start;
+    overflow:visible !important;
+    max-height:none !important;
   }
 }
 
