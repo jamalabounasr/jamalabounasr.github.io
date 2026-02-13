@@ -38,6 +38,13 @@ body.sticky-bottom-footer {
   img {
     width: 100%;
   }
+  @media (min-width: 992px){
+    position: sticky;
+    top: 80px;
+    align-self: flex-start;
+    max-height: calc(100vh - 100px);
+    overflow: auto;
+  }
 }
 
 // Content layout uses Bootstrap's grid system with responsive columns
