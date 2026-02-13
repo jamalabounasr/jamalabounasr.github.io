@@ -5,40 +5,34 @@ permalink: /
 subtitle: PhD Researcher at UPC BarcelonaTech
 
 profile:
-  align: left
+  align: right
   image: jamal.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-      <div class="sidebar-links">    
-        <div class="link-item no-hover">
-          <i class="fas fa-map-marker-alt icon-fixed"></i> 
-          <span>Barcelona, Spain</span>
-        </div>
-        <div class="link-item no-hover">
-          <i class="fas fa-university icon-fixed"></i> 
-          <span>UPC</span>
-        </div>
-        <a href="mailto:jamal.abounasr@upc.edu" class="link-item">
-          <i class="fas fa-envelope icon-fixed"></i> 
-          <span>Email</span>
-        </a>
-        <a href="https://scholar.google.com/citations?user=BnjJTP8AAAAJ" target="_blank" class="link-item">
-          <i class="fas fa-graduation-cap icon-fixed"></i> 
-          <span>Google Scholar</span>
-        </a>
-        <a href="https://www.linkedin.com/in/jamal-abounasr-23b4ba252" target="_blank" class="link-item">
-          <i class="fas fa-briefcase icon-fixed"></i> 
-          <span>LinkedIn</span>
-        </a>
-        <a href="https://orcid.org/0009-0007-8510-6873" target="_blank" class="link-item">
-          <i class="fa-brands fa-orcid"></i> 
-          <span>ORCID</span>
-        </a>
-        <a href="/assets/pdf/CV 2026.pdf" target="_blank" class="link-item">
-          <i class="fas fa-file-pdf icon-fixed"></i> 
-          <span>CV</span>
-        </a>
-      </div>
+    <div style="display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin-top:10px;">
+      <span style="display:inline-flex;align-items:center;gap:8px;white-space:nowrap;">
+        <i class="fas fa-map-marker-alt"></i><span>Barcelona, Spain</span>
+      </span>
+      <span style="display:inline-flex;align-items:center;gap:8px;white-space:nowrap;">
+        <i class="fas fa-university"></i><span>UPC</span>
+      </span>
+      <a href="mailto:jamal.abounasr@upc.edu" style="display:inline-flex;align-items:center;gap:8px;white-space:nowrap;">
+        <i class="fas fa-envelope"></i><span>Email</span>
+      </a>
+      <a href="https://scholar.google.com/citations?user=BnjJTP8AAAAJ" target="_blank" style="display:inline-flex;align-items:center;gap:8px;white-space:nowrap;">
+        <i class="ai ai-google-scholar"></i><span>Google Scholar</span>
+      </a>
+      <a href="https://www.linkedin.com/in/jamal-abounasr-23b4ba252" target="_blank" style="display:inline-flex;align-items:center;gap:8px;white-space:nowrap;">
+        <i class="fab fa-linkedin"></i><span>LinkedIn</span>
+      </a>
+      <a href="https://orcid.org/0009-0007-8510-6873" target="_blank" style="display:inline-flex;align-items:center;gap:8px;white-space:nowrap;">
+        <i class="fab fa-orcid"></i><span>ORCID</span>
+      </a>
+      <a href="/assets/pdf/CV%202026.pdf" target="_blank" style="display:inline-flex;align-items:center;gap:8px;white-space:nowrap;">
+        <i class="fas fa-file-pdf"></i><span>CV</span>
+      </a>
+    </div>
+
 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
