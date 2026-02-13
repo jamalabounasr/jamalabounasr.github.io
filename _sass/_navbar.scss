@@ -196,3 +196,10 @@
 #light-toggle,#search-toggle{width:2.4rem;height:2.4rem;}
 @media (min-width:576px){#light-toggle{transform:translateY(0);}}
 
+/* More spacing between navbar items */
+.navbar-nav{gap:1.4rem;} /* space between items */
+.navbar.navbar-light .navbar-nav .nav-item .nav-link{padding-left:0;padding-right:0;}
+/* extra breathing room left/right inside the bar */
+.navbar .container,.navbar .container-fluid{padding-left:1.5rem;padding-right:1.5rem;}
+/* keep toggle from sticking too close */
+.navbar-nav .toggle-container{margin-left:.8rem;}
