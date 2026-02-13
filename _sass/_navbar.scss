@@ -189,12 +189,4 @@
   }
 }
 
-/* Navbar: keep only the theme toggle */
-#navbarNav .navbar-nav > li.nav-item{display:none !important;} /* hides About + other pages */
-#navbarNav .navbar-nav > li.toggle-container{display:block !important;}
-#search-toggle{display:none !important;}
-.navbar-toggler{display:none !important;}
-/* On phones, Bootstrap collapses #navbarNav; force it visible so the toggle always shows */
-@media (max-width: 575.98px){
-  #navbarNav.collapse{display:flex !important;}
-}
+
