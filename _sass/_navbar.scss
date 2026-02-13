@@ -188,5 +188,11 @@
     color: var(--global-hover-color);
   }
 }
-
+/* Bigger navbar (height + typography) */
+.navbar{padding-top:1.0rem;padding-bottom:1.0rem;}
+.navbar .navbar-brand{font-size:1.35rem;line-height:1.2;}
+.navbar.navbar-light .navbar-nav .nav-item .nav-link{font-size:1.1rem;padding:.6rem .9rem;line-height:1.2;}
+/* Keep icons aligned with the bigger bar */
+#light-toggle,#search-toggle{width:2.4rem;height:2.4rem;}
+@media (min-width:576px){#light-toggle{transform:translateY(0);}}
 
