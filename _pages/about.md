@@ -2,16 +2,45 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Researcher at UPC BarcelonaTech
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: jamal.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+more_info: >
+    <div class="sidebar-links">    
+      <div class="link-item no-hover">
+        <i class="fas fa-map-marker-alt icon-fixed"></i> 
+        <span>Barcelona, Spain</span>
+      </div>
+      <div class="link-item no-hover">
+        <i class="fas fa-university icon-fixed"></i> 
+        <span>UPC</span>
+      </div>
+      <a href="mailto:jamal.abounasr@upc.edu" class="link-item">
+        <i class="fas fa-envelope icon-fixed"></i> 
+        <span>Email</span>
+      </a>
+      <a href="https://scholar.google.com/citations?user=BnjJTP8AAAAJ" target="_blank" class="link-item">
+        <i class="fas fa-graduation-cap icon-fixed"></i> 
+        <span>Google Scholar</span>
+      </a>
+      <a href="https://www.linkedin.com/in/jamal-abounasr-23b4ba252" target="_blank" class="link-item">
+        <i class="fas fa-briefcase icon-fixed"></i> 
+        <span>LinkedIn</span>
+      </a>
+      <a href="https://orcid.org/0009-0007-8510-6873" target="_blank" class="link-item">
+        <i class="fa-brands fa-orcid"></i> 
+        <span>ORCID</span>
+      </a>
+      <a href="/assets/pdf/CV 2026.pdf" target="_blank" class="link-item">
+        <i class="fas fa-file-pdf icon-fixed"></i> 
+        <span>CV</span>
+      </a>
+    </div>
+
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
