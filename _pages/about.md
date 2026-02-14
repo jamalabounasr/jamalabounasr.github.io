@@ -62,5 +62,7 @@ My work focuses on wearable and body-integrated RF sensing, including printed an
 - Signal processing and calibration against reference systems (e.g., BIOPAC)
 
 ## Publications
-See the full list on the Publications page: [Publications](/publications/).
+<div class="publications">
+{% bibliography --group_by year --query @* %}
+</div>
 
