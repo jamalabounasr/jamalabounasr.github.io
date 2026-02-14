@@ -63,6 +63,6 @@ My work focuses on wearable and body-integrated RF sensing, including printed an
 
 ## Publications
 <div class="publications">
-{% bibliography --group_by year --query @* %}
+{% bibliography  --query @* --group_by none %}
 </div>
 
