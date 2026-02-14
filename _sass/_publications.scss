@@ -3,7 +3,20 @@
  ******************************************************************************/
 
 @use "variables" as v;
-
+.post .profile + .clearfix .bibliography .row {
+  margin-left: 0;
+  margin-right: 0;
+  flex-direction: column;
+}
+.post .profile + .clearfix .bibliography .row > [class^='col-'],
+.post .profile + .clearfix .bibliography .row > [class*=' col-'] {
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+.post .profile + .clearfix .bibliography .row > .text-right {
+  text-align: left !important;
+  margin-top: 0.35rem;
+}
 .publications {
   margin-top: 2rem;
 
