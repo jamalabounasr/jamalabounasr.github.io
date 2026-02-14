@@ -46,7 +46,15 @@ body.sticky-bottom-footer {
     overflow: auto;
   }
 }
+/* About page: prevent content (e.g., bibliography headers) from flowing under the floated/sticky profile */
+.post .profile + .clearfix {
+  display: flow-root; /* creates a new block formatting context => respects the float */
+}
 
+/* Fallback (older browsers) */
+@supports not (display: flow-root) {
+  .post .profile + .clearfix { overflow: hidden; }
+}
 // Content layout uses Bootstrap's grid system with responsive columns
 // Main content flows naturally through container-mt-5 and Bootstrap grid classes
 // See _layouts/default.liquid and _includes/projects.liquid for examples
