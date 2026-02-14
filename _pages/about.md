@@ -5,7 +5,7 @@ permalink: /
 subtitle: PhD Researcher at UPC BarcelonaTech
 
 profile:
-  align: right
+  align: left
   image: jamal.jpg
   image_circular: false
   more_info: >
