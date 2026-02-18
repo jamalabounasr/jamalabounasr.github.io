@@ -12,25 +12,32 @@ profile:
   more_info: >
     <div style="display:flex;flex-direction:column;gap:12px;margin-top:10px;">
       <div style="display:flex;align-items:center;gap:10px;">
-        <i class="fa-solid fa-location-dot" style="width:18px;"></i><span>Barcelona, Spain</span>
+        <i class="fa-solid fa-location-dot" style="min-width:18px;text-align:center;"></i>
+        <span>Barcelona, Spain</span>
       </div>
       <div style="display:flex;align-items:center;gap:10px;">
-        <i class="fa-solid fa-building-columns" style="width:18px;"></i><span>UPC</span>
+        <i class="fa-solid fa-building" style="min-width:18px;text-align:center;"></i>
+        <span>UPC</span>
       </div>
       <a href="mailto:jamal.abounasr@upc.edu" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
-        <i class="fa-solid fa-envelope" style="width:18px;"></i><span>Email</span>
+        <i class="fa-solid fa-envelope" style="min-width:18px;text-align:center;"></i>
+        <span>Email</span>
       </a>
-      <a href="https://scholar.google.com/citations?user=BnjJTP8AAAAJ" target="_blank" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
-        <i class="ai ai-google-scholar" style="width:18px;"></i><span>Google Scholar</span>
+      <a href="https://scholar.google.com/citations?user=BnjJTP8AAAAJ" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
+        <i class="ai ai-google-scholar" style="min-width:18px;text-align:center;"></i>
+        <span>Google Scholar</span>
       </a>
-      <a href="https://www.linkedin.com/in/jamal-abounasr-23b4ba252" target="_blank" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
-        <i class="fa-brands fa-linkedin" style="width:18px;"></i><span>LinkedIn</span>
+      <a href="https://www.linkedin.com/in/jamal-abounasr-23b4ba252" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
+        <i class="fa-brands fa-linkedin-in" style="min-width:18px;text-align:center;"></i>
+        <span>LinkedIn</span>
       </a>
-      <a href="https://orcid.org/0009-0007-8510-6873" target="_blank" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
-        <i class="ai ai-orcid" style="width:18px;"></i><span>ORCID</span>
+      <a href="https://orcid.org/0009-0007-8510-6873" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
+        <i class="fa-brands fa-orcid" style="min-width:18px;text-align:center;"></i>
+        <span>ORCID</span>
       </a>
-      <a href="/assets/pdf/CV%202026.pdf" target="_blank" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
-        <i class="fa-solid fa-file-pdf" style="width:18px;"></i><span>CV</span>
+      <a href="/assets/pdf/CV%202026.pdf" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
+        <i class="fa-solid fa-file-pdf" style="min-width:18px;text-align:center;"></i>
+        <span>CV</span>
       </a>
     </div>
 
@@ -60,6 +67,3 @@ My work focuses on wearable and body-integrated RF sensing, including printed an
 - Near-field coupling / resonator-based sensing and RF readout interpretation
 - Signal processing and calibration against reference systems (e.g., BIOPAC)
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
