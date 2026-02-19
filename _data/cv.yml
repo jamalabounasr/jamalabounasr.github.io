@@ -88,6 +88,100 @@ cv:
         releaseDate: 2024
         url: https://doi.org/10.1109/JSEN.2024.3485472
         summary: Journal article presenting a textile stretchable antenna-based sensor for breathing monitoring.
+            - title: Capacitively coupled CSRR and H-Slot UHF RFID antenna for wireless glucose concentration monitoring
+        authors:
+          - Tauseef Hussain
+          - Jamal Abounasr
+          - Ignacio Gil
+          - Raúl Fernández-García
+        publisher: Sensors
+        releaseDate: 2025
+        url: https://doi.org/10.3390/s25185651
+        summary: Journal article on a UHF RFID antenna/sensor approach for wireless glucose concentration monitoring.
+      - title: Flexible body-integrated breathing monitoring system based on near-field coupling printed sensor
+        authors:
+          - Jamal Abounasr
+          - Mariam El Gharbi
+          - Raúl Fernández-García
+          - Ignacio Gil
+        publisher: Measurement
+        releaseDate: 2026
+        url: ""
+        summary: Journal article on a body-integrated breathing monitoring system using near-field coupled printed sensors.
+      - title: Study of wash-induced performance variability in embroidered antenna sensors for physiological monitoring
+        authors:
+          - Mariam El Gharbi
+          - Jamal Abounasr
+          - Raúl Fernández-García
+          - Ignacio Gil
+        publisher: Electronics
+        releaseDate: 2025
+        url: https://doi.org/10.3390/electronics14102084
+        summary: Journal article investigating how washing affects embroidered antenna sensors used for physiological monitoring.
+      - title: Innovative Optically Transparent Planar Antenna for WiMAX Communication Systems
+        authors:
+          - Soukaina Sekkal
+          - Moustapha El Bakkali
+          - Jamal Abounasr
+          - Zainab L’Gzouli
+          - Naima Amar Touhami
+          - Samoudi Bousselham
+          - Adel Asselman
+          - Othmane Bendaou
+        publisher: Progress in Electromagnetics Research C
+        releaseDate: 2025
+        url: ""
+        summary: Journal article proposing an optically transparent planar antenna design for WiMAX applications.
+      - title: Novel Approaches for Developing Wideband H-Plane Horn Antennas
+        authors:
+          - Jamal Abounasr
+          - Dahbi El Khamlichi
+          - Hanaa El Moudden
+          - Naima Amar Touhami
+        publisher: Springer (Conference Proceedings Chapter)
+        releaseDate: 2023
+        url: https://doi.org/10.1007/978-3-031-54674-7_34
+        summary: Proceedings chapter describing approaches for developing wideband H-plane horn antennas.
+      - title: Textile-Based Stretchable Antenna for Wearable Communication Applications
+        authors:
+          - Mariam El Gharbi
+          - Jamal Abounasr
+          - Raúl Fernández-García
+          - Ignacio Gil
+        publisher: IEEE AP-S/URSI (Conference)
+        releaseDate: 2025
+        url: ""
+        summary: Conference paper on a textile-based stretchable antenna for wearable communication applications.
+      - title: Design and Fabrication of a Biocompatible Antenna for Wearable Technologies
+        authors:
+          - Jamal Abounasr
+          - Mariam El Gharbi
+          - Raúl Fernández-García
+          - Ignacio Gil
+        publisher: EuCAP (Conference)
+        releaseDate: 2025
+        url: https://doi.org/10.23919/EuCAP63536.2025.10999289
+        summary: Conference paper on the design and fabrication of a biocompatible antenna for wearable technologies.
+      - title: A smart belt with embroidered antenna-based sensor for real-time respiratory monitoring
+        authors:
+          - Mariam El Gharbi
+          - Jamal Abounasr
+          - Raúl Fernández-García
+          - Ignacio Gil
+        publisher: IEEE Sensors Journal
+        releaseDate: 2025
+        url: https://doi.org/10.1109/JSEN.2025.3594530
+        summary: Journal article presenting a smart belt integrating an embroidered antenna-based sensor for real-time respiratory monitoring.
+      - title: A high-sensitivity inkjet-printed flexible resonator for monitoring dielectric changes in meat
+        authors:
+          - Jamal Abounasr
+          - Mariam El Gharbi
+          - Raúl Fernández-García
+          - Ignacio Gil
+        publisher: Sensors
+        releaseDate: 2025
+        url: https://doi.org/10.3390/s25051338
+        summary: Journal article on an inkjet-printed flexible resonator sensor for monitoring dielectric changes in meat.
      
 
     Skills:
