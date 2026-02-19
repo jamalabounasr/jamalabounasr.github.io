@@ -70,39 +70,6 @@ cv:
         url: 
         summary: Awarded the Joan Oró FI Predoctoral Grant for doctoral research at UPC. Funds three years of study, covering tuition and supporting training activities, international research stays, and professional development in high-frequency flexible sensors and RF-based healthcare applications.
         
-    Publications:
-      - title: Flexible Body-Integrated Breathing Monitoring System Based on Near-Field Coupling Printed Sensor
-        publisher: Measurement
-        releaseDate: 2026
-        summary: Under revision.
-      - title: A High-Sensitivity Inkjet-Printed Flexible Resonator for Monitoring Dielectric Changes in Meat
-        publisher: Sensors
-        releaseDate: 2025-02-22
-        summary: DOI: 10.3390/s25051338
-      - title: Design and Fabrication of a Biocompatible Antenna for Wearable Technologies
-        publisher: EuCAP
-        releaseDate: 2025-05-25
-        summary: DOI: 10.23919/EuCAP63536.2025.10999289
-      - title: A Smart Belt With Embroidered Antenna-Based Sensor for Real-Time Respiratory Monitoring
-        publisher: IEEE Sensors Journal
-        releaseDate: 2025-10-01
-        summary: DOI: 10.1109/JSEN.2025.3594530
-      - title: Capacitively Coupled CSRR and H-Slot UHF RFID Antenna for Wireless Glucose Concentration Monitoring
-        publisher: Sensors
-        releaseDate: 2025-09-10
-        summary: DOI: 10.3390/s25185651
-      - title: Study of Wash-Induced Performance Variability in Embroidered Antenna Sensors for Physiological Monitoring
-        publisher: Electronics
-        releaseDate: 2025-05-21
-        summary: DOI: 10.3390/electronics14102084
-      - title: Textile Stretchable Antenna-Based Sensor for Breathing Monitoring
-        publisher: IEEE Sensors Journal
-        releaseDate: 2024-12-15
-        summary: DOI: 10.1109/JSEN.2024.3485472
-      - title: Novel Approaches for Developing Wideband H-Plane Horn Antennas
-        publisher: Book chapter
-        releaseDate: 2024
-        summary: DOI: 10.1007/978-3-031-54674-7_34
 
     Skills:
       - name: Physics
