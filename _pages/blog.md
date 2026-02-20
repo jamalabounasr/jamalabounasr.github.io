@@ -102,15 +102,13 @@ pagination:
 {% endif %}
 
   <ul class="post-list">
-
     {% if page.pagination.enabled %}
       {% assign postlist = paginator.posts %}
     {% else %}
       {% assign postlist = site.posts %}
     {% endif %}
-
     {% for post in postlist %}
-
+{% unless post.categories contains "sample-posts" %}
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
     {% else %}
@@ -119,7 +117,7 @@ pagination:
     {% assign year = post.date | date: "%Y" %}
     {% assign tags = post.tags | join: "" %}
     {% assign categories = post.categories | join: "" %}
-
+{% endunless %}
     <li>
 
 {% if post.thumbnail %}
