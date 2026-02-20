@@ -64,6 +64,7 @@ pagination:
 {% assign is_even = featured_posts.size | modulo: 2 %}
 <div class="row row-cols-{% if featured_posts.size <= 2 or is_even == 0 %}2{% else %}3{% endif %}">
 {% for post in featured_posts %}
+{% unless post.categories contains "sample-posts" %}
 <div class="col mb-4">
 <a href="{{ post.url | relative_url }}">
 <div class="card hoverable">
@@ -75,14 +76,12 @@ pagination:
 </div>
 <h3 class="card-title text-lowercase">{{ post.title }}</h3>
 <p class="card-text">{{ post.description }}</p>
-
                     {% if post.external_source == blank %}
                       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
                     {% else %}
                       {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
                     {% endif %}
                     {% assign year = post.date | date: "%Y" %}
-
                     <p class="post-meta">
                       {{ read_time }} min read &nbsp; &middot; &nbsp;
                       <a href="{{ year | prepend: '/blog/' | relative_url }}">
@@ -94,6 +93,7 @@ pagination:
             </div>
           </a>
         </div>
+      {% endunless %}
       {% endfor %}
       </div>
     </div>
