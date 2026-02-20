@@ -45,6 +45,7 @@ pagination:
         <p>&bull;</p>
       {% endif %}
       {% for category in site.display_categories %}
+      {% unless post.categories contains "sample-posts" %}
         <li>
           <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
         </li>
