@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-conference-highlight-conference-name-city",
+        
+          title: "Conference highlight: [Conference name], [City]",
+        
+        description: "A quick recap of my talk, the people I met, and what I’m taking back to the lab.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/conference-moment/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
